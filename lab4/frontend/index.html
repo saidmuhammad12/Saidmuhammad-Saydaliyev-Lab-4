@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amity University - Lab Work 4 | Home</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="brand">
+            <img src="images/amity-logo.png" alt="Amity University Logo" class="logo">
+            <div>
+                <h1>Amity University</h1>
+                <p>Web Technologies – Lab Work 4</p>
+            </div>
+        </div>
+        <nav>
+            <a href="index.html" class="active">Home (Frame)</a>
+            <a href="form.html">Form</a>
+            <a href="table.html">Table</a>
+        </nav>
+    </header>
+    <main>
+        <section class="card">
+            <h2>Page 1: Home – Using a Frame (iframe)</h2>
+            <p>
+                Welcome to Lab Work 4. This page demonstrates an <b>&lt;iframe&gt;</b>, which loads
+                another web page inside the current page. Below, the frame shows <code>about.html</code>.
+            </p>
+            <iframe src="about.html" title="About the Lab" class="frame"></iframe>
+        </section>
+        <section class="card">
+            <h3>Project Structure</h3>
+            <ul class="structure">
+                <li><b>Frontend</b> (HTML, CSS, JavaScript) – what the user sees: this page, the form and
+                    the table.</li>
+                <li><b>Backend</b> (PHP) – runs on the server: saves the form data and sends it back to
+                    the table.</li>
+            </ul>
+            <p>Server status: <span id="server-status">checking…</span></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2026 Amity University | Lab Work 4 | HTML, CSS, JavaScript &amp; PHP</p>
+    </footer>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
